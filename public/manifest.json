@@ -1,4 +1,4 @@
-{
+{	
   "name": "Sohib AI v5 Ultimate",
   "short_name": "Sohib AI",
   "description": "Personal AI Companion with Living Memory and Emotion",
@@ -9,12 +9,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/icons/192.png",
+      "src": "icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icons/512.png",
+      "src": "icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
