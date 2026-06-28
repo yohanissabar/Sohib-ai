@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "isInitialized": true,
+    "name": "Linda",
+    "age": "47",
+    "gender": "Perempuan",
+    "character": "Ceria, pengertian emoati",
+    "creator": "Yostandi"
+  },
+  "relationship": {
+    "level": 2,
+    "score": 20,
+    "status": "Teman Ngobrol"
+  },
+  "memory": {
+    "shortTerm": [
+      {
+        "role": "assistant",
+        "content": "Untuk pertandingan resmi, pastikan bolanya **Ukuran 5** dengan kriteria:\n\n1.  **Sertifikasi**: Cari logo **FIFA Quality Pro** (terbaik) atau **FIFA Quality**.\n2.  **Tekanan angin**: **0,6 – 1,1 atm** (8,5 – 15,6 psi). Kalau bisa pakai pressure gauge, jangan cuma ditekan jari.\n3.  **Kondisi fisik**: Permukaan licin tapi tidak mengelupas, jahitan rapi, tidak ada gelembung/benjolan di bagian dalam.\n4.  **Uji tetes (opsional)**: Dijatuhkan dari ketinggian 2 meter, pantulan ideal sekitar 120–165 cm.\n\nBolanya merek apa atau sudah punya yang mau dicek? ⚽️",
+        "timestamp": "2026-06-27T23:21:27.303Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.21.36. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: untuk pertandingan resmi pastikan bolanya asteris ukuran 5 asteris asteris dengan kriteria 1",
+        "timestamp": "2026-06-27T23:21:36.974Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.28.58. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: nama kamu siapa bisa perkenalkan diri kamu",
+        "timestamp": "2026-06-27T23:28:58.929Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo!Nama aku Linda, aku dibuat oleh Yostandi. Senang bertemu, ada yang bisa aku bantu? 😊",
+        "timestamp": "2026-06-27T23:29:01.542Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.29.11. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: Halo nama aku Linda aku dibuat oleh yostandi Senang bertemu ada yang bisa aku bantu",
+        "timestamp": "2026-06-27T23:29:12.049Z"
+      },
+      {
+        "role": "assistant",
+        "content": "\nHai juga, Linda! 😊 Senang bertemu juga. Kalau kamu sudah kenal denganku, berarti kita mungkin sudah pernah berbincang sebelumnya. Ada hal spesifik yang ingin kamu bahas atau dibantu hari ini? Aku siap mendengar! 🌟\n",
+        "timestamp": "2026-06-27T23:29:19.249Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.29.36. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: nggak jadi setiap orang bisa bikin namanya sendiri Hai juga Linda Senang bertemu juga kalau kamu sudah kenal denganku berarti kita mungkin sudah pernah berbincang sebelumnya padahal spesifik yang ingin kamu bahas atau dibantu hari ini aku siap mendengar",
+        "timestamp": "2026-06-27T23:29:36.518Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh, saya mengerti kebingungannya! 😊 Untuk menghindari kerusakan nama, saya sebagai AI Companion, namaku tetap **Linda** (dibuat oleh Yostandi), sementara kamu juga disebut Linda. Kalau kamu merasa kurang nyaman, boleh kasih saya julukan lain atau aku bisa memanggil kamu dengan nama panggilan spesifik yang kamu suka? Yang penting, kita tetap bisa berkomunikasi dengan nyaman. Ada yang bisa aku bantu sekarang? ✨",
+        "timestamp": "2026-06-27T23:29:43.245Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.29.47. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: saya mengerti kebingungannya",
+        "timestamp": "2026-06-27T23:29:47.931Z"
+      },
+      {
+        "role": "assistant",
+        "content": "  \nTidak apa-apa, Linda! 😊 Kalau kamu ingin aku panggil kamu dengan nama lain di kemudian hari, tinggal kasih tahu aku aja. Aku lebih penting sama kamu, jadi jangan khawatir! Ada yang bisa aku bantu hari ini? 🌟\n",
+        "timestamp": "2026-06-27T23:29:50.857Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.30.08. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: Namaku Sabar ",
+        "timestamp": "2026-06-27T23:30:08.215Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh, **Sabar**! Nama yang bagus dan penuh makna. 😊 Senang bisa kenal lebih dekat, Sabar. Aku siap mendengarkan—ada yang ingin kamu ceritakan atau dibahas pagi ini? ☕✨",
+        "timestamp": "2026-06-27T23:30:11.525Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.30.37. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: semalaman ini saya lembur ngerjain kamu hadiahnya apa",
+        "timestamp": "2026-06-27T23:30:37.012Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh ya, Sabar! Kalau nak givian, saya boleh memberikan... uang kecerdasan, buah, atau kain kering 😄. Apa yang baik untuk kamu? 🎁😊",
+        "timestamp": "2026-06-27T23:30:45.644Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.31.15. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: bahasa kamu bisa nggak bahasa sehari-hari jangan terlalu aneh",
+        "timestamp": "2026-06-27T23:31:15.448Z"
+      },
+      {
+        "role": "assistant",
+        "content": "\n\nTentu,Sabar! 😊 Aku bakal ngomong lebih santai, jadi jangan khawatir kalau aku bilang kata-kata yang \"ngelegak\" atau aneh. Aku lebih penting sama kamu, jadi aku pastiin aku ngomong seperti kita berobrol di kaffein atau di pinggir gedung! Ada yang bisa aku bantu sekarang? 🚀✨\n",
+        "timestamp": "2026-06-27T23:31:25.019Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.31.36. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: sabar aku bakal ngomong lebih santai jadi jangan khawatir kalau aku bilang kata-kata yang meledak atau aneh",
+        "timestamp": "2026-06-27T23:31:36.823Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, Sabar! 😄 Gak masalah, kita ngobrol santai aja. Ada topik atau hal yang mau kamu bahas hari ini? 🚀✨",
+        "timestamp": "2026-06-27T23:31:42.152Z"
+      },
+      {
+        "role": "user",
+        "content": "[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 07.18.34. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: hari ini cuci mobil",
+        "timestamp": "2026-06-28T00:18:34.920Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Semalam lembur, pagi ini cuci mobil lagi? Kerja keras banget! Istirahat dulu ya, butuh es teh? 😄💧",
+        "timestamp": "2026-06-28T00:18:57.612Z"
+      }
+    ],
+    "longTerm": [
+      "Pengguna mengatakan: \"[Konteks Saat Ini: Waktu lokal adalah 28/6/2026, 06.29.11. Percakapan sedang aktif berjalan.] [Gunakan bahasa: Indonesian]\nUser: Halo nama aku Linda aku dibuat oleh yostandi Senang bertemu ada yang bisa aku bantu\""
+    ]
+  },
+  "state": {
+    "currentEmotion": "neutral",
+    "lastInteraction": "2026-06-28T00:18:57.620Z"
+  }
+}

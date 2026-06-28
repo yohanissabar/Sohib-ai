@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Sohib AI Ultimate</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/style.css">
+
+    <meta name="theme-color" content="#0ea5e9">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-circle bg1"></div>
+        <div class="bg-circle bg2"></div>
+        <div class="bg-circle bg3"></div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- SETUP SCREEN -->
+    <!-- ========================= -->
+
+    <section id="setup-screen"
+             class="glass-panel hidden">
+
+        <h1>🤝 Bangkitkan Sohib AI</h1>
+
+        <p>
+            Buat sahabat virtualmu sendiri.
+        </p>
+
+        <form id="setup-form">
+
+            <input
+                id="setup-name"
+                type="text"
+                placeholder="Nama Sohib"
+                required>
+
+            <input
+                id="setup-age"
+                type="number"
+                placeholder="Umur"
+                required>
+
+            <select
+                id="setup-gender"
+                required>
+
+                <option value="">
+                    Pilih Gender
+                </option>
+
+                <option value="Laki-laki">
+                    👨 Laki-laki
+                </option>
+
+                <option value="Perempuan">
+                    👩 Perempuan
+                </option>
+
+                <option value="Non-binary">
+                    🙂 Non Binary
+                </option>
+
+            </select>
+
+            <textarea
+                id="setup-character"
+                placeholder="Contoh : Humoris, perhatian, cerewet, romantis..."
+                required></textarea>
+
+            <button type="submit">
+
+                Aktifkan Sohib
+
+            </button>
+
+        </form>
+
+        <div class="creator-tag">
+
+            Created by Yostandi
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- MAIN SCREEN -->
+    <!-- ========================= -->
+
+    <section id="main-screen"
+             class="hidden">
+
+        <!-- HEADER -->
+
+        <header class="glass-header">
+
+            <div>
+
+                <h2 id="sohib-name-display">
+
+                    Sohib AI
+
+                </h2>
+
+                <div
+                    id="relationship-status"
+                    class="badge">
+
+                    Level 1 • Kenalan
+
+                </div>
+
+            </div>
+
+            <button id="btn-settings">
+
+                ⚙️
+
+            </button>
+
+        </header>
+
+        <!-- AVATAR -->
+
+        <section class="avatar-section">
+
+            <div class="avatar-glow"></div>
+
+            <div
+                id="sohib-avatar"
+                class="avatar-live avatar-idle">
+
+                👨
+
+            </div>
+
+            <div
+                id="emotion-indicator"
+                class="emotion-badge">
+
+                😊 Netral
+
+            </div>
+
+            <div
+                id="status-indicator"
+                class="status-indicator hidden">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </section>
+
+        <!-- CHAT -->
+
+        <section
+            id="chat-box"
+            class="chat-container">
+
+            <div class="message system-msg">
+
+                👋 Halo...
+                Aku Sohib AI.
+                Senang bertemu denganmu.
+
+            </div>
+
+        </section>
+
+        <!-- INPUT -->
+
+        <footer
+            class="input-area glass-panel">
+
+            <button
+                id="btn-voice"
+                class="btn-icon">
+
+                🎤
+
+            </button>
+
+            <input
+                id="chat-input"
+                type="text"
+                autocomplete="off"
+                placeholder="Ketik pesan...">
+
+            <button
+                id="btn-send"
+                class="btn-icon send-btn">
+
+                ➤
+
+            </button>
+
+        </footer>
+
+    </section>
+
+    <!-- SCRIPT -->
+
+    <script src="/voice.js"></script>
+
+    <script src="/app.js"></script>
+
+    <script>
+
+    if('serviceWorker' in navigator){
+
+        window.addEventListener('load',()=>{
+
+            navigator.serviceWorker.register('/sw.js')
+
+            .then(reg=>{
+
+                console.log("Service Worker OK");
+
+            })
+
+            .catch(err=>{
+
+                console.error(err);
+
+            });
+
+        });
+
+    }
+
+    </script>
+
+</body>
+
+</html>       
